@@ -53,7 +53,7 @@ const mesh2 = new THREE.Mesh(
     material
 )
 const mesh3 = new THREE.Mesh(
-    new THREE.TorusKnotGeometry(0.8, 0.35, 100, 16),
+    new THREE.CapsuleGeometry( 1, 1, 4, 8),
     material
 )
 
